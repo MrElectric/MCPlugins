@@ -1,5 +1,5 @@
 # MCPlugins
 
 Plugin Statuses:
-Welcome - Complete
+Welcome - Complete;
 PunishmentGUI - Not Complete
