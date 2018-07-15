@@ -1,0 +1,20 @@
+name: PunishGUI
+version: 3.0
+main: me.coolguy1951.punish.Plugin
+author: Mr. Electric
+description: Open a punishment gui or just use commands
+
+commands:
+  punish:
+    usage: /punish <player> <reason>
+    description: Open a punishment gui
+  p:
+    usage: /p <player> <reason>
+    description: open a punishment gui
+  warn:
+    usage: /warn <player> <reason>
+    description: warn players
+permissions:
+  admin.si:
+    description: makes you an admin
+    default: op
