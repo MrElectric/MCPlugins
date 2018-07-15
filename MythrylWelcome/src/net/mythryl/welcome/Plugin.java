@@ -34,18 +34,9 @@ public class Plugin
  SettingsManager settings = SettingsManager.getInstance();
   
 
- ArrayList<String> frozen = new ArrayList();
- ArrayList<Player> mute = new ArrayList();
   FileConfiguration config;
   File cfile;
   
-  @EventHandler
- public void onPlayerMove(PlayerMoveEvent e) { Player p = e.getPlayer();
-   if (this.frozen.contains(p.getName())) {
-    e.setTo(e.getFrom());
-     p.sendMessage(ChatColor.RED + "Event>" + ChatColor.GRAY + " You Are Now Frozen!");
-    }
-  }
   @EventHandler
   public void onPlayerJoin(PlayerJoinEvent e){
 	  
