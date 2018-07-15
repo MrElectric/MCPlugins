@@ -1,0 +1,17 @@
+name: WelcomeMessage
+version: 1.1
+main: net.mythryl.welcome.Plugin
+author: Mr. Electric
+description: Welcome Messages For Everyone!
+
+commands:
+  motd:
+    usage: /motd
+    description: view the motd
+  setmotd:
+    usage: /setmotd <motd>
+    description: set the motd
+permissions:
+  motd.set:
+    description: Use the setmotd command to change the MOTD.
+    default: op
